@@ -45,4 +45,4 @@ gem 'hashie', '~> 4.0'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
-
+gem 'interactor', '~> 3.1', '>= 3.1.2'
