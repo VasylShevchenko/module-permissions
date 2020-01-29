@@ -31,5 +31,10 @@ module ModulePermissions
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.middleware.use(Rack::Config) do |env|
+      env['api.tilt.root'] = Rails.root.join 'app', 'api_views'
+    end
+
   end
 end
