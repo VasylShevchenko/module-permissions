@@ -36,3 +36,9 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'grape', '~> 1.2', '>= 1.2.4'
+gem 'grape-swagger', '~> 0.34.2'
+gem 'grape-swagger-rails', '~> 0.3.1'
+gem 'grape-jbuilder', '~> 0.2.0'
+gem 'hashie', '~> 4.0'
