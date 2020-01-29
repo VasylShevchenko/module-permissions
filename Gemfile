@@ -42,3 +42,7 @@ gem 'grape-swagger', '~> 0.34.2'
 gem 'grape-swagger-rails', '~> 0.3.1'
 gem 'grape-jbuilder', '~> 0.2.0'
 gem 'hashie', '~> 4.0'
+
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
+
