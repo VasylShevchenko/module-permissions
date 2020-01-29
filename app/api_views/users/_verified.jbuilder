@@ -1,0 +1,1 @@
+json.permissions user.get_full_list_permissions
